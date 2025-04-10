@@ -19,6 +19,34 @@
     <script src="/static/js/preloadImage.js" async=""></script>
     
     <style>
+      .pl-4 {
+    padding-left: 1rem;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+.w-full {
+    width: 100%;
+}
+.flex {
+    display: flex
+;
+}
+.z-40 {
+    z-index: 40;
+}
+.relative {
+    position: relative;
+}
       .wegic-badge {
         position: fixed;
         bottom: 20px;
@@ -159,6 +187,17 @@
     <div id="root">
         <section class="relative z-40 top-0 w-full bg-[#ffffffe0] dark:bg-black/80 backdrop-blur-sm md:px-8" style="transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); transition-duration: 300ms; font-size: 14px; height: auto;">
             <div class="max-w-7xl mx-auto w-full ">
+              <div class="relative flex flex-col" style="">
+                <div class="relative flex flex-shrink-0 z-40 w-full pl-4 justify-between items-center overflow-hidden md:hidden" style="height: 56px;font-size: 14px;">
+                    <img class="_image_bh1ht_4 !w-auto !max-w-[300px] object-cover flex-shrink min-w-0" alt="logo" src="https://cdn.wegic.ai/assets/onepage/thread/icon/d5bf11fe-bc8d-4a7e-a1c7-f5ecbfd3d0d5.png?format=webp" style="height: 32px; background-color: transparent;">
+                    <button class=" flex justify-center items-center text-black flex-shrink-0" tabindex="0" style="width: 56px; height: 56px; font-size: 14px; transform: none;">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 5L16.375 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M3 10H16.375" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M3 15H16.375" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                    </svg>
+                    </button>
+                </div>
                 <div class="w-full hidden gap-16 md:flex justify-between items-center" style="height: 64px;">
                     <div class="flex flex-1 flex-shrink  min-w-0 items-center">
                         <div class="w-0">
